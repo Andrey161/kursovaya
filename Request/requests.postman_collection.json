@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "91d1fc25-2528-4eeb-b96e-1be3e1bcb129",
+		"name": "requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://k-vnukov.xn--80ahdri7a.site/api/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "login",
+							"value": "qweqwewqe1",
+							"type": "default"
+						},
+						{
+							"key": "password",
+							"value": "qwe1112ss",
+							"type": "default"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://k-vnukov.xn--80ahdri7a.site/api/register",
+					"protocol": "http",
+					"host": [
+						"k-vnukov",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-vnukov.xn--80ahdri7a.site/api/sklad/del/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://k-vnukov.xn--80ahdri7a.site/api/sklad/del/3",
+					"protocol": "http",
+					"host": [
+						"k-vnukov",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"sklad",
+						"del",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-vnukov.xn--80ahdri7a.site/api/conclusion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "http://k-vnukov.xn--80ahdri7a.site/api/conclusion",
+					"protocol": "http",
+					"host": [
+						"k-vnukov",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"conclusion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://k-vnukov.xn--80ahdri7a.site/api/tovar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "article",
+							"value": "666666",
+							"type": "default"
+						},
+						{
+							"key": "name",
+							"value": "qwerty",
+							"type": "default"
+						},
+						{
+							"key": "kol-vo",
+							"value": "123",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://k-vnukov.xn--80ahdri7a.site/api/tovar",
+					"protocol": "http",
+					"host": [
+						"k-vnukov",
+						"xn--80ahdri7a",
+						"site"
+					],
+					"path": [
+						"api",
+						"tovar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
